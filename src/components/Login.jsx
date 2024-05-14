@@ -38,7 +38,7 @@ export const Login = () => {
       }).catch((error) => {
         setError(error.message)
       });
-        console.log(user)
+        
        
      })
      .catch((error) => {
@@ -51,7 +51,7 @@ export const Login = () => {
      .then((userCredential) => {
         
         const user = userCredential.user;
-         console.log(user)
+    
         
       })
       .catch((error) => {
