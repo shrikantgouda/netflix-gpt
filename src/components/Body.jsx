@@ -12,7 +12,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
       element:<Login/>,
     },
     {
-      path:"/browse",
+      path:"/Browse",
       element:<Browse/>,
     },
   ])
